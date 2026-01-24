@@ -143,3 +143,22 @@ This preprocessing step improves:
 - **Sentence completeness**
 - **Confidence reliability**
 
+## 🚀 Future Enhancements
+
+Planned improvements to extend the system’s capabilities include:
+- **Automatic language detection** to remove manual language selection
+- **Conversation / multi-turn mode** for context-aware translation
+- **Japanese romanization (Romaji) support** for language learners
+- **Dark mode UI** for improved accessibility and user experience
+- **Cloud deployment** using Streamlit Cloud or Docker
+- **Support for additional languages** beyond English and Japanese
+
+---
+
+## 👩‍💻 Author
+
+**Dikshitha A**  
+Computer Science Engineering  
+Interests: **AI / ML · NLP · Speech Processing**  
+GitHub: [https://github.com/DikshithaAnand](https://github.com/DikshithaAnand)
+
