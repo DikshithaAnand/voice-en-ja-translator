@@ -68,14 +68,56 @@ Speech Output + UI Highlighting
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the repository
+
 ```bash
 git clone https://github.com/DikshithaAnand/voice-en-ja-translator.git
 cd voice-en-ja-translator
 
 ```
 2️⃣ Create & activate virtual environment
+
 ```bash
 python -m venv venv
 venv\Scripts\activate
 
 ```
+
+3️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+4️⃣ Run the application
+
+```bash
+streamlit run app.py
+```
+
+
+Open your browser at:
+
+```bash
+http://localhost:8501
+
+```
+
+🧪 How to Use
+
+- Click 🎤 Record
+
+- Speak in English or Japanese
+
+- Click Stop
+
+- View:
+
+   - Recognized text
+
+   - Translation
+
+   - Confidence & silence metrics
+
+   - Word highlighting
+
+   - Listen to translated speech directly on screen
