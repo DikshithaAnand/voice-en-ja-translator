@@ -49,3 +49,15 @@ This makes it suitable for **real-world applications**, demos, and interviews.
 ---
 
 ## 🔄 System Workflow
+
+Voice Input
+↓
+Silence Trimming
+↓
+Speech Recognition (Whisper)
+↓
+Text + Confidence + Word Timestamps
+↓
+Translation (EN ↔ JA)
+↓
+Speech Output + UI Highlighting
