@@ -1,66 +1,51 @@
 # 🎙️ Voice-Based English ↔ Japanese Translator
 
-## Overview
-This project is a production-ready NLP application that performs
-speech-to-speech translation between English and Japanese.
+## 📌 Overview
+This project is a **production-ready NLP and Speech Processing system** that performs **speech-to-speech translation** between **English and Japanese**.
 
-## Features
-- Start / Stop voice recording (browser-bas
-- High accuracy speech recognition
-- English ↔ Japanese translation
-- Text-to-speech audio output
-- Clean Streamlit UI
+Users can **record their voice directly in the browser**, and the system automatically:
+1. Converts speech to text  
+2. Translates the text  
+3. Plays translated speech  
+4. Displays confidence and quality metrics  
+5. Highlights words in sync with audio  
 
-## Tech Stack
-- Python
-- Streamlit
-- SpeechRecognition
-- Google Translate
-- gTTS
-
-## How It Works
-Voice → Text → Translation → Voice
-
-## Run Instructions
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-
+The system is designed with **accuracy, transparency, and scalability** in mind.
 
 ---
 
-## ✅ Why this version is CORRECT
-
-✔ User controls **start & stop**  
-✔ No random cut-offs  
-✔ Higher accuracy  
-✔ Industry-style architecture  
-✔ Judges & interviewers will respect this  
-
----
-
-## 🧠 Interview-Level Explanation (USE THIS)
-
-> “I separated audio capture from speech recognition by implementing a browser-based recorder, which significantly improved control and transcription accuracy.”
+## ✨ Key Features
+- 🎤 **Browser-based voice recording** (Start / Stop control)
+- 🧠 **High-accuracy speech recognition using OpenAI Whisper**
+- 🌐 **English ↔ Japanese translation**
+- 🔊 **Text-to-speech output (in-memory, no files saved)**
+- 🟨 **Word-by-word highlighting synced with audio**
+- 📊 **ASR Confidence score**
+- 🔇 **Silence ratio analysis (audio quality indicator)**
+- 🖥️ **Clean and professional Streamlit UI**
 
 ---
 
-### 🔥 Next (Optional, powerful)
-- Switch to **Whisper (offline, very accurate)**
-- Add **conversation mode**
-- Deploy on **Streamlit Cloud**
-- Convert to **college report + architecture diagram**
+## 🧠 Why This Project Is Different
+Unlike basic speech apps, this system:
+- Exposes **confidence and uncertainty**
+- Avoids saving audio files (memory-safe & deployable)
+- Uses **word-level timestamps** for precise UI sync
+- Separates **audio capture, ASR, translation, and TTS** cleanly
 
-Just say **what you want next** 💙
+This makes it suitable for **real-world applications**, demos, and interviews.
 
-### Speech Recognition
-The system uses OpenAI Whisper for multilingual speech recognition.  
-Whisper was chosen for its robustness to accents, offline capability,
-and strong performance across English and Japanese speech.
+---
 
-### Voice Activity Detection
-Before transcription, audio is processed using WebRTC VAD to remove silence
-segments. This significantly improves transcription accuracy and sentence
-completeness, especially for Japanese speech.
+## 🛠️ Tech Stack
+- **Python**
+- **Streamlit** – UI & frontend
+- **OpenAI Whisper** – Speech recognition (offline, multilingual)
+- **Google Translate API** – Text translation
+- **gTTS** – Text-to-speech
+- **NumPy & SciPy** – Audio processing
+- **Git & GitHub** – Version control
 
+---
 
+## 🔄 System Workflow
