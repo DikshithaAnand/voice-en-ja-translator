@@ -120,4 +120,4 @@ http://localhost:8501
 
    - Word highlighting
 
-   - Listen to translated speech directly on screen
+- Listen to translated speech directly on screen
