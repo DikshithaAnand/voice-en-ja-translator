@@ -121,3 +121,25 @@ http://localhost:8501
    - Word highlighting
 
 - Listen to translated speech directly on screen
+
+## 🧠 Speech Recognition
+
+The system uses **OpenAI Whisper** for multilingual speech recognition.
+
+Whisper was chosen because it:
+- Works **offline**
+- Handles **accents and pauses** effectively
+- Provides **word-level timestamps**
+- Supports **automatic language detection**
+
+---
+
+## 🔇 Audio Preprocessing
+
+Before transcription, the audio is processed using **energy-based Voice Activity Detection (VAD)** to remove silence segments.
+
+This preprocessing step improves:
+- **Transcription accuracy**
+- **Sentence completeness**
+- **Confidence reliability**
+
