@@ -5,7 +5,7 @@ This project is a production-ready NLP application that performs
 speech-to-speech translation between English and Japanese.
 
 ## Features
-- Start / Stop voice recording (browser-based)
+- Start / Stop voice recording (browser-bas
 - High accuracy speech recognition
 - English ↔ Japanese translation
 - Text-to-speech audio output
