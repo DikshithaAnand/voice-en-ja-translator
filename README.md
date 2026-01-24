@@ -61,3 +61,21 @@ Text + Confidence + Word Timestamps
 Translation (EN ↔ JA)
 ↓
 Speech Output + UI Highlighting
+
+
+---
+
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/DikshithaAnand/voice-en-ja-translator.git
+cd voice-en-ja-translator
+
+```
+2️⃣ Create & activate virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate
+
+```
