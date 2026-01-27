@@ -157,7 +157,7 @@ Planned improvements to extend the system’s capabilities include:
 
 ## 👩‍💻 Author
 
-**Dikshitha A**  
+**Dikshitha Anand**
 Computer Science and Engineering  
 Interests: **AI / ML · NLP · Speech Processing**  
 GitHub: [https://github.com/DikshithaAnand](https://github.com/DikshithaAnand)
