@@ -159,6 +159,6 @@ Planned improvements to extend the system’s capabilities include:
 
 **Dikshitha Anand**
 Computer Science and Engineering  
-Interests: **AI / ML · NLP · Speech Processing**  
+Interests: **Artificial Intelligence / Machine Learning · NLP · Speech Processing**  
 GitHub: [https://github.com/DikshithaAnand](https://github.com/DikshithaAnand)
 
