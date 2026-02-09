@@ -1,16 +1,17 @@
 # 🎙️ Voice-Based English ↔ Japanese Translator
 
 ## 📌 Overview
-This project is a **production-ready NLP and Speech Processing system** that performs **speech-to-speech translation** between **English and Japanese**.
+This project is a **production-ready NLP and speech processing system** that enables **speech-to-speech translation** between **English and Japanese**.
 
-Users can **record their voice directly in the browser**, and the system automatically:
+Users can **record their voice directly in the browser**, after which the system automatically:
 1. Converts speech to text  
-2. Translates the text  
-3. Plays translated speech  
-4. Displays confidence and quality metrics  
-5. Highlights words in sync with audio  
+2. Translates the recognized text  
+3. Plays back the translated speech  
+4. Displays confidence and audio quality metrics  
+5. Highlights words in real time, synchronized with the audio  
 
-The system is designed with **accuracy, transparency, and scalability** in mind.
+The system is built with a strong focus on **accuracy, transparency, and scalability**.
+
 
 ---
 
