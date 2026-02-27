@@ -166,14 +166,25 @@ This preprocessing step improves:
 
 ## 🚀 Future Enhancements
 
-Planned improvements to extend the system’s capabilities include:
-- **Automatic language detection** to remove manual language selection
-- **Conversation / multi-turn mode** for context-aware translation
-- **Japanese romanization (Romaji) support** for language learners
-- **Dark mode UI** for improved accessibility and user experience
-- **Cloud deployment** using Streamlit Cloud or Docker
-- **Support for additional languages** beyond English and Japanese
+To further strengthen the system and expand its real-world usability, the following improvements are planned:
 
+- 🌍 **Automatic Language Detection**  
+  Eliminate manual language selection by dynamically identifying the spoken language.
+
+- 💬 **Conversation / Multi-Turn Mode**  
+  Enable context-aware translations to support natural, back-and-forth dialogue.
+
+- 🇯🇵 **Japanese Romanization (Romaji) Support**  
+  Provide Romaji output alongside Japanese text to assist language learners.
+
+- 🌙 **Dark Mode UI**  
+  Improve accessibility and enhance user experience with an optimized dark interface.
+
+- ☁️ **Cloud Deployment**  
+  Deploy using **Streamlit Cloud** or **Docker** for scalable and production-grade hosting.
+
+- 🌐 **Multi-Language Expansion**  
+  Extend support beyond English and Japanese to additional global languages.
 ---
 
 ## 👩‍💻 Author
