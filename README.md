@@ -29,14 +29,27 @@ The system is engineered with a strong emphasis on **accuracy, explainability, p
 
 ---
 
-## 🧠 Why This Project Is Different
-Unlike basic speech apps, this system:
-- Exposes **confidence and uncertainty**
-- Avoids saving audio files (memory-safe & deployable)
-- Uses **word-level timestamps** for precise UI sync
-- Separates **audio capture, ASR, translation, and TTS** cleanly
+## 🧠 Why This Project Stands Out
 
-This makes it suitable for **real-world applications**, demos, and interviews.
+Unlike basic speech translation applications, this system is designed with production-level considerations:
+
+- **Confidence & Uncertainty Exposure**  
+  Displays model confidence scores to improve transparency and user trust.
+
+- **Memory-Safe Architecture**  
+  Avoids storing audio files permanently, making it safer and deployment-friendly.
+
+- **Word-Level Timestamping**  
+  Enables precise UI synchronization with real-time word highlighting.
+
+- **Modular System Design**  
+  Clearly separates audio capture, speech recognition (ASR), translation, and text-to-speech (TTS) components for maintainability and scalability.
+
+Because of these design decisions, the project is suitable for:
+
+- Real-world deployment scenarios  
+- Technical demonstrations  
+- AI/ML interviews and portfolio showcases  
 
 ---
 
