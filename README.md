@@ -53,19 +53,37 @@ This makes it suitable for **real-world applications**, demos, and interviews.
 
 ## 🔄 System Workflow
 
-Voice Input
-↓
-Silence Trimming
-↓
-Speech Recognition (Whisper)
-↓
-Text + Confidence + Word Timestamps
-↓
-Translation (EN ↔ JA)
-↓
-Speech Output + UI Highlighting
-
-
+```text
+┌──────────────────────────────┐
+│        🎤 Voice Input        │
+│  (Browser Audio Recording)   │
+└───────────────┬──────────────┘
+                ↓
+┌──────────────────────────────┐
+│      ✂️ Silence Trimming     │
+│   (Energy / VAD Processing)  │
+└───────────────┬──────────────┘
+                ↓
+┌──────────────────────────────┐
+│  🧠 Speech Recognition       │
+│       (Whisper Model)        │
+└───────────────┬──────────────┘
+                ↓
+┌──────────────────────────────┐
+│ 📝 Text Output + Confidence  │
+│   + Word-Level Timestamps    │
+└───────────────┬──────────────┘
+                ↓
+┌──────────────────────────────┐
+│ 🌐 Translation (EN ↔ JA)     │
+│     (Neural Translation)     │
+└───────────────┬──────────────┘
+                ↓
+┌──────────────────────────────┐
+│ 🔊 Speech Output (TTS)       │
+│ + Real-Time UI Highlighting  │
+└──────────────────────────────┘
+```
 ---
 
 ## ▶️ How to Run the Project
