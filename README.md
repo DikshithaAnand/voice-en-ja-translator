@@ -41,13 +41,23 @@ This makes it suitable for **real-world applications**, demos, and interviews.
 ---
 
 ## 🛠️ Tech Stack
-- **Python**
-- **Streamlit** – UI & frontend
-- **OpenAI Whisper** – Speech recognition (offline, multilingual)
-- **Google Translate API** – Text translation
-- **gTTS** – Text-to-speech
-- **NumPy & SciPy** – Audio processing
-- **Git & GitHub** – Version control
+
+### 👨‍💻 Core Language
+- **Python** – Backend logic, audio processing, and AI integration
+
+### 🎨 Frontend / UI
+- **Streamlit** – Interactive web interface and real-time UI rendering
+
+### 🧠 Speech & NLP
+- **OpenAI Whisper** – Offline multilingual speech recognition  
+- **Google Translate API** – Neural text translation (EN ↔ JA)  
+- **gTTS (Google Text-to-Speech)** – Speech synthesis for translated output  
+
+### 🔊 Audio Processing
+- **NumPy & SciPy** – Signal processing, waveform handling, and silence trimming  
+
+### 🔧 DevOps & Version Control
+- **Git & GitHub** – Source control, collaboration, and project management
 
 ---
 
