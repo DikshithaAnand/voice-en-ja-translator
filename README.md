@@ -201,7 +201,8 @@ To further strengthen the system and expand its real-world usability, the follow
   Provide Romaji output alongside Japanese text to assist language learners.
 
 - 🌙 **Dark Mode UI**  
-  Improve accessibility and enhance user experience with an optimized dark interface.
+  Improve accessibility and enhance user experience with an optimized  best dark interface.
+  
 
 - ☁️ **Cloud Deployment**  
   Deploy using **Streamlit Cloud** or **Docker** for scalable and production-grade hosting.
