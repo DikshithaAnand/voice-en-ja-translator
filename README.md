@@ -17,15 +17,17 @@ The system is engineered with a strong emphasis on **accuracy, explainability, p
 
 ---
 
-## ✨ Key Features
-- 🎤 **In-browser voice recording** with intuitive start/stop controls  
-- 🧠 **Accurate speech recognition powered by OpenAI Whisper**  
-- 🌐 **Bidirectional English ↔ Japanese translation**  
-- 🔊 **Real-time text-to-speech playback (no audio files stored)**  
-- 🟨 **Word-level highlighting synchronized with speech audio**  
-- 📊 **Automatic ASR confidence scoring**  
-- 🔇 **Silence ratio detection for audio quality assessment**  
-- 🖥️ **Clean, responsive, and professional Streamlit interface**
+##✨ Key Features
+
+* 🎙️ **Interactive browser-based voice recording** with simple start and stop functionality
+* 🧠 **High-accuracy speech recognition** using OpenAI Whisper technology
+* 🌍 **Seamless English ↔ Japanese language translation**
+* 🔊 **Instant text-to-speech audio playback** without storing audio files
+* 🟨 **Synchronized word highlighting** during speech playback for better learning
+* 📈 **Automatic speech recognition confidence analysis**
+* 🔇 **Silence detection and audio quality evaluation**
+* 🖥️ **Modern, responsive, and user-friendly Streamlit interface**
+
 
 ---
 
