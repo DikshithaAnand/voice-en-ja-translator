@@ -17,7 +17,7 @@ The system is engineered with a strong emphasis on **accuracy, explainability, p
 
 ---
 
-##✨ Key Features
+## ✨ Key Features
 
 * 🎙️ **Interactive browser-based voice recording** with simple start and stop functionality
 * 🧠 **High-accuracy speech recognition** using OpenAI Whisper technology
