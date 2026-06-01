@@ -4,17 +4,23 @@
 
 This project is a **production-ready NLP and speech processing system** designed to perform seamless **speech-to-speech translation** between **English and Japanese**.
 
-Users can record their voice directly within the browser, and the system automatically:
+Users can record their voice directly within the browser, and the system automatically performs the complete translation pipeline:
 
-1. Converts spoken audio into text (Speech-to-Text)  
-2. Translates the recognized text into the target language  
-3. Generates and plays the translated speech (Text-to-Speech)  
-4. Displays confidence scores and audio quality metrics  
-5. Highlights words in real time, synchronized with playback  
+- 🎤 Converts spoken audio into text (**Speech-to-Text**)
+- 🌐 Translates the recognized text into the target language
+- 🔊 Generates and plays translated speech (**Text-to-Speech**)
+- 📊 Displays ASR confidence scores and audio quality metrics
+- 🟨 Highlights words in real time synchronized with audio playback
 
-The system is engineered with a strong emphasis on **accuracy, explainability, performance, and scalability**, making it suitable for real-world deployment.
+The system is engineered with a strong focus on:
 
+- ✅ Accuracy
+- ⚡ Performance
+- 📈 Scalability
+- 🔍 Explainability
+- 🌍 Real-world usability
 
+making it suitable for modern NLP, speech AI, and multilingual communication applications.
 ---
 
 ## ✨ Key Features
